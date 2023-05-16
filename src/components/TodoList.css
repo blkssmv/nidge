@@ -1,0 +1,72 @@
+.todo-list {
+  margin-bottom: 20px;
+}
+
+.todo-list input[type="text"],
+.todo-list select {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.todo-list select {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+
+.todo-list input[type="text"] {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.todo-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+.todo-list li div{
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.todo-list li span {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.todo-list li button {
+  margin-left: 10px;
+}
+.editing{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.editing input{
+    margin: 0 10px!important;
+    width: 50%;
+    display: flex;
+    padding: 10px!important;
+    align-items: center;
+}
+
+.view{
+    display: flex;
+    flex-direction: column; 
+}
